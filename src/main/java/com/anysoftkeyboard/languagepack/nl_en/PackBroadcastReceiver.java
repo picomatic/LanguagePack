@@ -1,4 +1,4 @@
-package com.anysoftkeyboard.languagepack.dutch;
+package com.anysoftkeyboard.languagepack.nl_en;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
