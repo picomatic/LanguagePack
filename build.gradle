@@ -54,7 +54,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.anysoftkeyboard.languagepack.french"
+        applicationId "com.anysoftkeyboard.languagepack.fr_en"
         minSdkVersion 9
         targetSdkVersion 27
         versionName versionData.versionName
@@ -114,7 +114,7 @@ task makeDictionary(type: MakeDictionaryTask) {
     mkdir 'src/main/res/raw'
   }
   //dependsOn parseAospForDictionary
-  inputWordsListFile new File(project.getProjectDir(), "dictionary/lexique-dicollecte-fr-v6.1.xml")
+  inputWordsListFile new File(project.getProjectDir(), "dictionary/fr_en.xml")
 }
 
 afterEvaluate { proj ->

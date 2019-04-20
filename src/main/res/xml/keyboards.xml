@@ -9,7 +9,7 @@
      -->
     <Keyboard
         defaultDictionaryLocale="fr"
-        description="clavier français AZERTY"
+        description="clavier fr_en AZERTY"
         iconResId="@drawable/flag_fr"
         id="23eaecd1-c74c-11e7-8f1a-0800200c9a66"
         index="1"
@@ -17,7 +17,7 @@
         nameResId="@string/keyboard_name" />
     <Keyboard
         defaultDictionaryLocale="fr"
-        description="clavier français QWERTY"
+        description="clavier fr_en QWERTY"
         iconResId="@drawable/flag_ca"
         id="23eaecd2-c74c-11e7-8f1a-0800200c9a66"
         index="2"
